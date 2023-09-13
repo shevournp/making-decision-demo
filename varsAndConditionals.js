@@ -22,5 +22,15 @@ if (jonSnowHealth <= jamieLannisterAttack) {
     console.log('jon snow has been slain.')
 } else {
 jonSnowHealth = jonSnowHealth - jamieLannisterAttack
-console.log (`jon snows health is fown to ${jonSnowHealth}`)
+console.log (`jon snows health is down to ${jonSnowHealth}`)
+}
+
+jonSnowDefense += 25
+
+//sec attack from jamie
+if (jonSnowHealth <= jamieLannisterAttack - jonSnowDefense){
+    console.log ('jon snow is dead')
+} else {
+    jonSnowHealth -= (jamieLannisterAttack - jonSnowDefense)
+    console.log (`jon snows health is down to ${jonSnowHealth}`)
 }
