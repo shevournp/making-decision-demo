@@ -14,3 +14,13 @@ console.log('jamie lannister has a better attack than john Snow') }
 else {
     console.log('out fighters are evenlt match')
 }
+
+let jonSnowHealth = 100
+let jonSnowDefense = 0 
+
+if (jonSnowHealth <= jamieLannisterAttack) {
+    console.log('jon snow has been slain.')
+} else {
+jonSnowHealth = jonSnowHealth - jamieLannisterAttack
+console.log (`jon snows health is fown to ${jonSnowHealth}`)
+}
