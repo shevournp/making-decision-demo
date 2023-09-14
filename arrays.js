@@ -79,3 +79,49 @@ console.log( clonedPidgeys )
 backpack.unshift('jynx status')
 console.log('backpack after adding statue')
 console.log(backpack)
+
+//
+//
+//
+//
+backpack.shift()
+
+console.log('backpack after getting rid of the statue')
+console.log(backpack)
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+let favePoke ='butterfree'
+backpack.shift()
+let lunch = pokemon.splice(3, 1, favePoke) 
+
+console.log('here is my backpack after catching butterfree')
+console.log(backpack)
+console.log('and here are my pokemon')
+console.log(pokemon)
+console.log('and here is my lunch')
+console.log(lunch)
+
+//
+//
+//
+//
+//
+//
+for(let i = 0; i < pokemon.length; i++){
+    if (pokemon === 'pidgey'){
+        pokemon[i] = 'pidgeotto' 
+    }
+    
+}
+console.log('after the evolution event,my pokemon are now:')
+console.log(pokemon)
